@@ -15,6 +15,7 @@
 		E69642162B269A5100CB84A0 /* ReadQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69642152B269A5100CB84A0 /* ReadQRViewController.swift */; };
 		E69642182B269A5B00CB84A0 /* GenerateQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69642172B269A5B00CB84A0 /* GenerateQRViewController.swift */; };
 		E696421A2B269A8700CB84A0 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69642192B269A8700CB84A0 /* TabViewController.swift */; };
+		E696421F2B28136000CB84A0 /* ChainedConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = E696421E2B28136000CB84A0 /* ChainedConstraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E69642152B269A5100CB84A0 /* ReadQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadQRViewController.swift; sourceTree = "<group>"; };
 		E69642172B269A5B00CB84A0 /* GenerateQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateQRViewController.swift; sourceTree = "<group>"; };
 		E69642192B269A8700CB84A0 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		E696421E2B28136000CB84A0 /* ChainedConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainedConstraints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				E69642192B269A8700CB84A0 /* TabViewController.swift */,
 				E69642042B26990200CB84A0 /* ViewController.swift */,
+				E696421E2B28136000CB84A0 /* ChainedConstraints.swift */,
 				E69642152B269A5100CB84A0 /* ReadQRViewController.swift */,
 				E69642172B269A5B00CB84A0 /* GenerateQRViewController.swift */,
 				E69642142B269A0100CB84A0 /* Supporting */,
@@ -97,6 +100,8 @@
 			dependencies = (
 			);
 			name = QRTreasureHunt;
+			packageProductDependencies = (
+			);
 			productName = QRTreasureHunt;
 			productReference = E69641FD2B26990200CB84A0 /* QRTreasureHunt.app */;
 			productType = "com.apple.product-type.application";
@@ -125,6 +130,8 @@
 				Base,
 			);
 			mainGroup = E69641F42B26990100CB84A0;
+			packageReferences = (
+			);
 			productRefGroup = E69641FE2B26990200CB84A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -153,6 +160,7 @@
 			files = (
 				E696421A2B269A8700CB84A0 /* TabViewController.swift in Sources */,
 				E69642052B26990200CB84A0 /* ViewController.swift in Sources */,
+				E696421F2B28136000CB84A0 /* ChainedConstraints.swift in Sources */,
 				E69642012B26990200CB84A0 /* AppDelegate.swift in Sources */,
 				E69642032B26990200CB84A0 /* SceneDelegate.swift in Sources */,
 				E69642162B269A5100CB84A0 /* ReadQRViewController.swift in Sources */,
@@ -300,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 987J4BXX78;
+				DEVELOPMENT_TEAM = F796PV2T27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QRTreasureHunt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -327,7 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 987J4BXX78;
+				DEVELOPMENT_TEAM = F796PV2T27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QRTreasureHunt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
